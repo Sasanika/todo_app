@@ -1,0 +1,138 @@
+/* styles.css */
+
+
+
+input {
+    border: 2px solid #BA9B09;
+    width: 80%; /* Set width as a percentage */
+    height: 40px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-block: 20px;
+    background-color: #FBFFBC;
+    color: #573E00; /* Font color */
+    font-size: 16px; /* Font size */
+    
+  }
+  
+  /* Change the placeholder font size */
+  input::placeholder {
+    font-size: 20px;
+    color: #573E00; /* Set the desired font size */
+  }
+  
+  /* Style when input is focused */
+  input:focus {
+    border: 2px solid #BA9B09;
+    background-color: #FBFFBC;
+    font-size: 20px; /* Change border color */
+  }
+  
+  /* Style text color when typing */
+  input:focus::placeholder {
+    color: #573E00;
+    font-size: 20px; /* Set red color for placeholder */
+  }
+  
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #ffffff;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+/* cardStyles.css */
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width: '80%';
+}
+
+#cardBody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.btn-primary {
+    color: white;
+    background-color: #573E00;
+    
+    
+}
+
+
+
+.btn-warning {
+    color: white;
+    background-color: #573E00;
+    
+}
+
+#editbtn, #deletebtn {
+    font-size: 30px;
+    background-color: transparent; 
+}
+
+
+
+.btn-danger {
+    color: #ffffff;
+    background-color: transparent;
+    size: 0.5cm;
+    
+}
+
+
+

@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sasanika Ruwanthi\\Documents\\todoList\\backendCRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4F1533-00EB-4547-9B06-1A24E21A5281}|backendCRUD\\backendCRUD.csproj|c:\\users\\sasanika ruwanthi\\documents\\todolist\\backendcrud\\backendcrud\\models\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4F1533-00EB-4547-9B06-1A24E21A5281}|backendCRUD\\backendCRUD.csproj|solutionrelative:backendcrud\\models\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4F1533-00EB-4547-9B06-1A24E21A5281}|backendCRUD\\backendCRUD.csproj|c:\\users\\sasanika ruwanthi\\documents\\todolist\\backendcrud\\backendcrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E4F1533-00EB-4547-9B06-1A24E21A5281}|backendCRUD\\backendCRUD.csproj|solutionrelative:backendcrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4F1533-00EB-4547-9B06-1A24E21A5281}|backendCRUD\\backendCRUD.csproj|c:\\users\\sasanika ruwanthi\\documents\\todolist\\backendcrud\\backendcrud\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4F1533-00EB-4547-9B06-1A24E21A5281}|backendCRUD\\backendCRUD.csproj|solutionrelative:backendcrud\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4F1533-00EB-4547-9B06-1A24E21A5281}|backendCRUD\\backendCRUD.csproj|c:\\users\\sasanika ruwanthi\\documents\\todolist\\backendcrud\\backendcrud\\migrations\\20240412075930_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4F1533-00EB-4547-9B06-1A24E21A5281}|backendCRUD\\backendCRUD.csproj|solutionrelative:backendcrud\\migrations\\20240412075930_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4F1533-00EB-4547-9B06-1A24E21A5281}|backendCRUD\\backendCRUD.csproj|c:\\users\\sasanika ruwanthi\\documents\\todolist\\backendcrud\\backendcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4F1533-00EB-4547-9B06-1A24E21A5281}|backendCRUD\\backendCRUD.csproj|solutionrelative:backendcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4F1533-00EB-4547-9B06-1A24E21A5281}|backendCRUD\\backendCRUD.csproj|c:\\users\\sasanika ruwanthi\\documents\\todolist\\backendcrud\\backendcrud\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4F1533-00EB-4547-9B06-1A24E21A5281}|backendCRUD\\backendCRUD.csproj|solutionrelative:backendcrud\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "C:\\Users\\Sasanika Ruwanthi\\Documents\\todoList\\backendCRUD\\backendCRUD\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "backendCRUD\\Controllers\\TodoController.cs",
+              "ToolTip": "C:\\Users\\Sasanika Ruwanthi\\Documents\\todoList\\backendCRUD\\backendCRUD\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "backendCRUD\\Controllers\\TodoController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAYwDMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T08:02:02.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240412075930_initial.cs",
+              "DocumentMoniker": "C:\\Users\\Sasanika Ruwanthi\\Documents\\todoList\\backendCRUD\\backendCRUD\\Migrations\\20240412075930_initial.cs",
+              "RelativeDocumentMoniker": "backendCRUD\\Migrations\\20240412075930_initial.cs",
+              "ToolTip": "C:\\Users\\Sasanika Ruwanthi\\Documents\\todoList\\backendCRUD\\backendCRUD\\Migrations\\20240412075930_initial.cs",
+              "RelativeToolTip": "backendCRUD\\Migrations\\20240412075930_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T07:59:32.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Sasanika Ruwanthi\\Documents\\todoList\\backendCRUD\\backendCRUD\\appsettings.json",
+              "RelativeDocumentMoniker": "backendCRUD\\appsettings.json",
+              "ToolTip": "C:\\Users\\Sasanika Ruwanthi\\Documents\\todoList\\backendCRUD\\backendCRUD\\appsettings.json",
+              "RelativeToolTip": "backendCRUD\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-12T07:56:31.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sasanika Ruwanthi\\Documents\\todoList\\backendCRUD\\backendCRUD\\Program.cs",
+              "RelativeDocumentMoniker": "backendCRUD\\Program.cs",
+              "ToolTip": "C:\\Users\\Sasanika Ruwanthi\\Documents\\todoList\\backendCRUD\\backendCRUD\\Program.cs",
+              "RelativeToolTip": "backendCRUD\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T07:54:17.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TodoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sasanika Ruwanthi\\Documents\\todoList\\backendCRUD\\backendCRUD\\Models\\TodoDbContext.cs",
+              "RelativeDocumentMoniker": "backendCRUD\\Models\\TodoDbContext.cs",
+              "ToolTip": "C:\\Users\\Sasanika Ruwanthi\\Documents\\todoList\\backendCRUD\\backendCRUD\\Models\\TodoDbContext.cs",
+              "RelativeToolTip": "backendCRUD\\Models\\TodoDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T07:48:53.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Todo.cs",
+              "DocumentMoniker": "C:\\Users\\Sasanika Ruwanthi\\Documents\\todoList\\backendCRUD\\backendCRUD\\Models\\Todo.cs",
+              "RelativeDocumentMoniker": "backendCRUD\\Models\\Todo.cs",
+              "ToolTip": "C:\\Users\\Sasanika Ruwanthi\\Documents\\todoList\\backendCRUD\\backendCRUD\\Models\\Todo.cs",
+              "RelativeToolTip": "backendCRUD\\Models\\Todo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T07:46:41.678Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
