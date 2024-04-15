@@ -135,3 +135,4 @@ C:\Users\Sasanika Ruwanthi\Documents\todoList\backendCRUD\backendCRUD\obj\Debug\
 C:\Users\Sasanika Ruwanthi\Documents\todoList\backendCRUD\backendCRUD\obj\Debug\net8.0\backendCRUD.pdb
 C:\Users\Sasanika Ruwanthi\Documents\todoList\backendCRUD\backendCRUD\obj\Debug\net8.0\backendCRUD.genruntimeconfig.cache
 C:\Users\Sasanika Ruwanthi\Documents\todoList\backendCRUD\backendCRUD\obj\Debug\net8.0\ref\backendCRUD.dll
+C:\Users\Sasanika Ruwanthi\Documents\todoList\backendCRUD\backendCRUD\obj\Debug\net8.0\backendCRUD.sourcelink.json

@@ -6,6 +6,7 @@ import { BsPencilSquare } from "react-icons/bs";
 import { TiDelete } from "react-icons/ti";
 import backgroundImage from "../assets/background.png";
 
+// The interface for the Student object 
 interface Student {
   id: number;
   todotitle: string;
@@ -13,15 +14,19 @@ interface Student {
 }
 
 function TodoCRUD() {
+  // State variables for todo information and student list are initialized
   const [id, setId] = useState<number | "">("");
   const [todotitle, setTodotitle] = useState("");
   const [todoabout, setTodoabout] = useState("");
   const [students, setStudents] = useState<Student[]>([]);
 
+  // When the component is mounted, students are loaded from the server.
   useEffect(() => {
     Load();
   }, []);
 
+
+  //Load students from the server
   async function Load() {
     try {
       const result = await axios.get<Student[]>("http://localhost:5142/api/Todo/GetTodo");
@@ -30,7 +35,7 @@ function TodoCRUD() {
       console.error(err);
     }
   }
-
+//To save a new todo
   async function save(event: React.FormEvent) {
     event.preventDefault();
     try {
@@ -47,13 +52,13 @@ function TodoCRUD() {
       alert(err);
     }
   }
-
+  //To populate form fields for editing a todo
   async function editStudent(student: Student) {
     setTodotitle(student.todotitle);
     setTodoabout(student.todoabout);
     setId(student.id);
   }
-
+//To delete a todo
   async function deleteStudent(id: number) {
     try {
       await axios.delete(`http://localhost:5142/api/Todo/DeleteTodo/${id}`);
@@ -66,7 +71,7 @@ function TodoCRUD() {
       alert(err);
     }
   }
-
+//To update a todo
   async function update(event: React.FormEvent) {
     event.preventDefault();
     try {
@@ -85,11 +90,13 @@ function TodoCRUD() {
     }
   }
 
+  //To get a color based on index for card background
   const getColor = (index: number)=> {
     const colors = ["#BA9B09", "#886902", "#261900"];
     return colors[index % colors.length];
   }
 
+  //State variable for input placeholder
   const [placeholder, setPlaceholder] = useState("Title");
 
 

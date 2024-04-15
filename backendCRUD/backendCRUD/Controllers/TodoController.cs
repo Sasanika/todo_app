@@ -10,16 +10,22 @@ namespace backendCRUD.Controllers
     public class TodoController : ControllerBase
     {
         private readonly TodoDbContext _todoDbContext;
+
+        // Using constructor injection, the controller gets the TodoDbContext.
         public TodoController(TodoDbContext todoDbContext)
         {
             _todoDbContext = todoDbContext;
         }
+
+        // GET method to retrieve all todo items.
         [HttpGet]
         [Route("GetTodo")]
         public async Task<IEnumerable<Todo>> GetTodo()
         {
             return await _todoDbContext.Todo.ToListAsync();
         }
+
+        // POST method to add a new todo item.
         [HttpPost]
         [Route("AddTodo")]
         public async Task<Todo> AddTodo(Todo objTodo)
@@ -28,6 +34,8 @@ namespace backendCRUD.Controllers
             await _todoDbContext.SaveChangesAsync();
             return objTodo;
         }
+
+        // PATCH method to update an existing todo item.
         [HttpPatch]
         [Route("UpdateTodo/{id}")]
         public async Task<Todo> UpdateTodo(Todo objTodo)
@@ -36,6 +44,8 @@ namespace backendCRUD.Controllers
             await _todoDbContext.SaveChangesAsync();
             return objTodo;
         }
+
+        // DELETE method to delete a todo item.
         [HttpDelete]
         [Route("DeleteTodo/{id}")]
         public bool DeleteTodo(int id)

@@ -10,12 +10,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+// Configures the DbContext to use SQL Server with the connection string named "TodoDbContext" from appsettings.json
 builder.Services.AddDbContext<TodoDbContext>(options =>
    options.UseSqlServer(builder.Configuration.GetConnectionString("TodoDbContext")));
 
 
 var app = builder.Build();
 
+// Allows requests from any origin by enabling Cross-Origin Resource Sharing (CORS).
 app.UseCors(policy => policy.AllowAnyHeader()
                             .AllowAnyMethod()
                             .SetIsOriginAllowed(origin => true)
