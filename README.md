@@ -2,6 +2,10 @@
 
 Users can keep track of their tasks and to-do items with the Todo Application, a straightforward task management tool. It is possible for users to add, edit, delete, and view already-existing tasks. The application makes that users can arrange their to-do lists and offers a user-friendly interface for task management.
 
+![Screenshot 2024-04-15 104041](https://github.com/Sasanika/todo_app/assets/134100704/97933637-8f2a-4b41-92ea-f2f18e0ce7ab)
+
+
+
 ## About Web App
 This includes the following functionalities:
 
